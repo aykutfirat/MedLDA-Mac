@@ -1,0 +1,23 @@
+var max iter 20
+var convergence 1e-4
+em max iter 10
+em convergence 1e-4
+model C 16.0
+init alpha 0.1
+svm_alg_type 2
+alpha 1
+inner-cv false
+inner_foldnum 4
+cv_paramnum 10
+25.0
+29.0
+33.0
+37.0
+41.0
+45.0
+49.0
+53.0
+57.0
+61.0
+train_file: newsgrouptrain.txt
+test_file: newsgrouptest.txt
